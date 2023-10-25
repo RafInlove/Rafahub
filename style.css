@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat:wght@100&family=Poppins:wght@300&display=swap');
 header {
 	padding: 0px;
 	background-color: #121212;
@@ -47,8 +48,8 @@ nav ul li a:hover {color: #E0A96D;}
     height: auto;
 	}
 	
-h1, p {margin: 0 auto; padding: 15px; font-family: Arial; color: #ffff}
-p, #p1, #p2, #p3 {text-align: justify; font-size: 25px;}
+h1, p {margin: 0 auto; padding: 15px; font-family: Poppins;; color: #ffff}
+p, #p1, #p2, #p3 { font-family: Poppins; text-align: justify; font-size: 25px;}
 
 #imagens {
 	position: flex;
@@ -72,7 +73,6 @@ p, #p1, #p2, #p3 {text-align: justify; font-size: 25px;}
 body {
 	padding: 0px 90px 0px 90px;
 	background-color: #F6F1E9;
-	overflow: hidden;
 }
 
 main {background-color: #B46060;}
@@ -165,7 +165,7 @@ form label {
 	padding: 5px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1300px) {
   [class*="col-"] {
     width: 50%;}
 	 
