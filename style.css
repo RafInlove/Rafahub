@@ -1,0 +1,211 @@
+header {
+	padding: 0px;
+	background-color: #121212;
+   justify-content: space-between;
+	}
+	
+	nav ul {
+	list-style-type: none;
+	margin: 0 auto;
+	text-align: right;
+	font-size: 15px;
+	
+	position: absolute;
+	top: 80px;
+	left: 800px;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 40px;
+	margin: 0px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: Arial;
+	color: #FFFFFF;
+	margin: 10px;
+}
+
+nav ul li a:hover {color: #E0A96D;}
+	
+#logoheader {
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;	
+	
+	margin: 10px;
+	}
+	
+	#rafahublogo {
+	width: 200px;
+	height: 100px;	
+	margin: 10px;
+	
+	max-width: 100%;
+    height: auto;
+	}
+	
+h1, p {margin: 0 auto; padding: 15px; font-family: Arial; color: #ffff}
+p {font-size: 25px;}
+
+#imagens {
+	position: flex;
+}
+
+#imagens {text-align: center;}
+
+.foto {
+	width: 275px;
+	margin: 5px;
+	height: 275px;
+	transition: transform 0.3s ease;
+	
+	max-width: 100%;
+    height: auto;
+}
+
+.foto:hover {transform: scale(1.2);}
+
+	
+body {
+	padding: 0px 90px 0px 90px;
+	background-color: #F6F1E9;
+}
+
+main {background-color: #B46060;}
+
+footer {
+	text-align: center;
+	padding: 0px;
+}
+
+.socials {
+	width: 50px;
+	height: 50px;	
+	margin: 10px;
+}
+
+
+
+#shelly {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	padding: 15px;
+	display: inline;
+	transition: transform 0.3s ease;
+	
+	max-width: 100%;
+    height: auto;
+}
+
+#logobarco {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	padding: 15px;
+	display: inline;
+	transition: transform 0.3s ease;
+	
+	max-width: 100%;
+    height: auto;
+}
+
+
+#shelly:hover {transform: scale(1.2);}
+#logobarco:hover {transform: scale(1.2);}
+
+.feedbacktext {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+
+}
+
+section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60vh;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	color: #ffff;
+	margin-bottom: 30px;
+	font-family: Arial;
+}
+
+form input, form textarea, button {
+	outline: unset;
+	padding: 20px;
+	min-width: 300px;
+	border: 1px solid;
+	border-radius: 20px;
+	
+}
+
+form input:focus, form textarea:focus {
+	background-color: #E0A96D;
+}
+
+form input[type = submit] {
+	background-color: #121212;
+	color: #ffff;
+	cursor: pointer;
+}
+
+form label {
+	margin-left: 10px;
+	padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 50%;}
+	 
+	 nav ul {
+	list-style-type: none;
+	margin: 5px; 
+	text-align: left;
+	font-size: 15px;
+	
+	position: flex;
+	top: 110px;
+	left: -20px;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 40px;
+	margin: 0px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: Arial;
+	color: #FFFFFF;
+	margin: 5px;
+}
+
+body {padding:0px;}
+	 
+header {padding: 20px;}
+
+.foto {
+	width: 150px;
+	margin: 5px;
+	height: 150px;
+	transition: transform 0.3s ease;
+	
+	max-width: 100%;
+    height: auto;
+}
+	 
+  }}
+  
+  p1, p2, p3 {text-align: justify;}
