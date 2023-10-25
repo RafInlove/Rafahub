@@ -48,7 +48,7 @@ nav ul li a:hover {color: #E0A96D;}
 	}
 	
 h1, p {margin: 0 auto; padding: 15px; font-family: Arial; color: #ffff}
-p {font-size: 25px;}
+p, #p1, #p2, #p3 {text-align: justify; font-size: 25px;}
 
 #imagens {
 	position: flex;
@@ -72,6 +72,7 @@ p {font-size: 25px;}
 body {
 	padding: 0px 90px 0px 90px;
 	background-color: #F6F1E9;
+	overflow: hidden;
 }
 
 main {background-color: #B46060;}
@@ -206,6 +207,6 @@ header {padding: 20px;}
     height: auto;
 }
 	 
-  }}
+  }
   
   p1, p2, p3 {text-align: justify;}
