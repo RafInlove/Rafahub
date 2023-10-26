@@ -89,6 +89,17 @@ footer {
 }
 
 
+#chanel {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	padding: 15px;
+	display: inline;
+	transition: transform 0.3s ease;
+	
+	max-width: 100%;
+    height: auto;
+}
 
 #shelly {
 	border-radius: 50%;
@@ -114,7 +125,7 @@ footer {
     height: auto;
 }
 
-
+#chanel:hover {transform: scale(1.2);}
 #shelly:hover {transform: scale(1.2);}
 #logobarco:hover {transform: scale(1.2);}
 
