@@ -422,18 +422,19 @@ form label {
     }
 
 	header {
-		height: 200px;
+		height: 500px;
 	}
 
 	.navbar-items {
 		display: flex;
 		padding: 0;
 		margin: 0;
+		height: 80px;
 	}
 
     .navbar-items li {
         font-size: 14px;
-		padding: 10px;
+		padding: 0px;
 		margin: 0;
     }
 
@@ -579,8 +580,8 @@ form label {
 	}
 
     .navbar-items li {
-        font-size: 14px;
-		padding: 19px;
+        font-size: 16px;
+		padding: 10px;
 		margin: 0;
     }
 
