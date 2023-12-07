@@ -190,8 +190,14 @@ footer {
 
 #pbarco {width: 500px;}
 
+.logoblog {
+	display: flex;
+}
 
-#chanel, #shelly, #logobarco, #hdclogo {
+#pblog {width: 500px;}
+
+
+#chanel, #shelly, #logobarco, #hdclogo, #bloglogo {
 	border-radius: 40px;
 	width: 200px;
 	height: 200px;
@@ -204,7 +210,7 @@ footer {
 }
 
 
-#chanel:hover, #shelly:hover, #logobarco:hover, #hdclogo:hover {transform: scale(1.2);}
+#chanel:hover, #shelly:hover, #logobarco:hover, #hdclogo:hover, #bloglogo:hover {transform: scale(1.2);}
 
 
 .feedbacktext {
