@@ -196,8 +196,20 @@ footer {
 
 #pblog {width: 500px;}
 
+.tabuadadesc {
+	display: flex;
+}
 
-#chanel, #shelly, #logobarco, #hdclogo, #bloglogo {
+#ptabuada {width: 500px;}
+
+.qrdesc {
+	display: flex;
+}
+
+#pqr {width: 500px;}
+
+
+#chanel, #shelly, #logobarco, #hdclogo, #bloglogo, #tabuadalogo, #qrlogo {
 	border-radius: 40px;
 	width: 200px;
 	height: 200px;
@@ -210,7 +222,8 @@ footer {
 }
 
 
-#chanel:hover, #shelly:hover, #logobarco:hover, #hdclogo:hover, #bloglogo:hover {transform: scale(1.2);}
+#chanel:hover, #shelly:hover, #logobarco:hover, #hdclogo:hover,
+#bloglogo:hover, #tabuadalogo:hover, #qrlogo:hover {transform: scale(1.2);}
 
 
 .feedbacktext {
