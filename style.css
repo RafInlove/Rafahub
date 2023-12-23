@@ -411,7 +411,7 @@ form label {
 			display: flex;
 		}
 		
-		#pbarco, #pchanel, #pshelly {
+		#pbarco, #pchanel, #pshelly, #pqr, #ptabuada, #pblog {
 			width: 90%;
 			font-size: 15px;
 			padding-left: 20px;
@@ -419,7 +419,7 @@ form label {
 		}
 		
 		
-		#chanel, #shelly, #logobarco, #hdclogo {
+		#chanel, #shelly, #logobarco, #hdclogo, #qrlogo, #tabuadalogo, #bloglogo {
 			border-radius: 40px;
 			width: 100px;
 			height: 100px;
