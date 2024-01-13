@@ -172,44 +172,14 @@ footer {
 	padding-top: 50px;
 }
 
-.channeldesc {
+.jobdesc {
 	display: flex;
 }
 
-#pchanel {width: 500px;}
-
-.shellydesc {
-	display: flex;
-}
-
-#pshelly {width: 500px;}
-
-.logobarcodesc {
-	display: flex;
-}
-
-#pbarco {width: 500px;}
-
-.logoblog {
-	display: flex;
-}
-
-#pblog {width: 500px;}
-
-.tabuadadesc {
-	display: flex;
-}
-
-#ptabuada {width: 500px;}
-
-.qrdesc {
-	display: flex;
-}
-
-#pqr {width: 500px;}
+.pjob {width: 500px;}
 
 
-#chanel, #shelly, #logobarco, #hdclogo, #bloglogo, #tabuadalogo, #qrlogo {
+.joblogo {
 	border-radius: 40px;
 	width: 200px;
 	height: 200px;
@@ -222,8 +192,7 @@ footer {
 }
 
 
-#chanel:hover, #shelly:hover, #logobarco:hover, #hdclogo:hover,
-#bloglogo:hover, #tabuadalogo:hover, #qrlogo:hover {transform: scale(1.2);}
+.joblogo:hover {transform: scale(1.2);}
 
 
 .feedbacktext {
@@ -306,7 +275,7 @@ form label {
 		width: 100%;
 	}
 
-	#pbarco, #pchanel, #pshelly {
+	.pjob {
 		width: 90%;
 		font-size: 24px;
 		padding-left: 40px;
@@ -397,21 +366,12 @@ form label {
 			padding-top: 20px;
 		}
 		
-		.channeldesc {
+		.jobdesc {
 			display: flex;
 		}
 		
 		
-		.shellydesc {
-			display: flex;
-		}
-		
-		
-		.logobarcodesc {
-			display: flex;
-		}
-		
-		#pbarco, #pchanel, #pshelly, #pqr, #ptabuada, #pblog {
+		.pjob {
 			width: 90%;
 			font-size: 15px;
 			padding-left: 20px;
@@ -419,7 +379,7 @@ form label {
 		}
 		
 		
-		#chanel, #shelly, #logobarco, #hdclogo, #qrlogo, #tabuadalogo, #bloglogo {
+		.joblogo {
 			border-radius: 40px;
 			width: 100px;
 			height: 100px;
@@ -545,21 +505,11 @@ form label {
 			padding-top: 20px;
 		}
 		
-		.channeldesc {
+		.jobdesc {
 			display: flex;
 		}
 		
-		
-		.shellydesc {
-			display: flex;
-		}
-		
-		
-		.logobarcodesc {
-			display: flex;
-		}
-		
-		#pbarco, #pchanel, #pshelly {
+		.pjob {
 			width: 90%;
 			font-size: 15px;
 			padding-left: 20px;
@@ -567,7 +517,7 @@ form label {
 		}
 		
 		
-		#chanel, #shelly, #logobarco, #hdclogo {
+		.joblogo {
 			border-radius: 40px;
 			width: 100px;
 			height: 100px;
@@ -692,21 +642,11 @@ form label {
 			padding-top: 20px;
 		}
 		
-		.channeldesc {
+		.jobdesc {
 			display: flex;
 		}
 		
-		
-		.shellydesc {
-			display: flex;
-		}
-		
-		
-		.logobarcodesc {
-			display: flex;
-		}
-		
-		#pbarco, #pchanel, #pshelly {
+		.pjob {
 			width: 90%;
 			font-size: 15px;
 			padding-left: 20px;
@@ -714,7 +654,7 @@ form label {
 		}
 		
 		
-		#chanel, #shelly, #logobarco, #hdclogo {
+		.joblo {
 			border-radius: 40px;
 			width: 100px;
 			height: 100px;
