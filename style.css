@@ -80,20 +80,47 @@ nav ul li a:hover {color: rgb(154, 153, 201);}
 	}
 	
 	.whitebox {
-		margin: 50px;
-		display: flex;
-		border-radius: 20px;
-		background-color: #F6F1E9;
-		height: 100px;
+		width:50%;
+		height: 90px;
+		background-color: white;
+		border-radius: 50px;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
 	}
 
 	.icons {
 		display: flex;
-		align-items: center;
-		padding-bottom: 50px;
+		gap: 3rem;
+		position: absolute;
+		bottom:10px;
+		width: 12px;
+		animation: carrossel 13s infinite linear;
+	}
+
+	.icons img {
+		width: 60px;
+		font-weight: bold;
+	}
+
+	.icons h2 {
+		font-size: small;
+		padding: 0;
+		margin: 0;
+		width: 500px;
 	}
 	
-	.icons img {
+
+	@keyframes carrossel {
+		from {
+			right: 0px;
+		}
+
+		to {
+			right: 1950px;
+		}
+	}
+	/* .icons img {
 		margin-top: 50px;
 		width: 80px;
 		height: 80px;
@@ -111,7 +138,7 @@ nav ul li a:hover {color: rgb(154, 153, 201);}
 		width:75px;
 		height: 65px
 	}
-
+*/
 h1 {
 	margin: 0 auto;
 	font-family: Poppins;
@@ -395,6 +422,50 @@ form label {
 
 }
 
+
+@media (max-width: 425px) {
+	.whitebox {
+		width:50%;
+		height: 80px;
+		background-color: white;
+		border-radius: 50px;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.icons {
+		display: flex;
+		gap: 1rem;
+		position: absolute;
+		bottom:-50px;
+		width: 12px;
+		animation: carrossel 15s infinite linear;
+	}
+
+	.icons img {
+		width: 90px;
+		font-weight: bold;
+	}
+
+	.icons h2 {
+		font-size: small;
+		padding: 0;
+		margin-top: 2rem;
+		width: 100px;
+	}
+	
+
+	@keyframes carrossel {
+		from {
+			right: 0px;
+		}
+
+		to {
+			right: 1200px;
+		}
+	}
+}
 /* mobile S */
 @media (max-width: 320px) {
     html, body {
@@ -432,61 +503,6 @@ form label {
 		margin-top: 100px;
 	}
 	
-	.whitebox {
-		margin: 0;
-		padding: 0;
-		display: flex;
-		border-radius: 20px;
-		background-color: #F6F1E9;
-		height: 300px;
-		width: 250px;
-	}
-
-	.primeiro-quadrante {
-		display: flex;
-		padding-right: 10px;
-	}
-
-	.segundo-quadrante {
-		display: flex;
-		padding-left: 10px;
-	}
-
-	.quinto-quadrante {
-		display: flex;
-		align-self: center;
-		padding-left: 45px;
-
-	}
-
-	.icons {
-		display: flex;
-		flex-direction: column;
-		align-items: end;
-		justify-content: center;
-		padding-bottom: 5px;
-		padding-left: 15px;
-	}
-	
-	.icons .primeiro-quadrante img, .icons .segundo-quadrante img,
-	.icons .quinto-quadrante img {
-		margin-top: 10px;
-		width: 75px;
-		height: 75px;
-		padding: 10px;
-	}
-
-	.icons .primeiro-quadrante .cssicon {
-		margin-top: 20px;
-		width:60px;
-		height:60px;
-	}
-
-	.icons .flaskicon {
-		margin-top: 50px;
-		width:45px;
-		height: 45px
-	}
 
 	
 		p {
@@ -561,68 +577,54 @@ form label {
 		background-position: 48%;
 		padding: 8rem 0;
 	}
-	
+
 	.tecnologias {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin-top: 100px;
+		margin-top: 0;
 	}
 	
-	.whitebox {
-		margin: 0;
-		padding: 0;
-		display: flex;
-		border-radius: 20px;
-		background-color: #F6F1E9;
-		height: 300px;
-		width: 250px;
-	}
 
-	.primeiro-quadrante {
-		display: flex;
-		padding-right: 10px;
-	}
-
-	.segundo-quadrante {
-		display: flex;
-		padding-left: 10px;
-	}
-
-	.quinto-quadrante {
-		display: flex;
-		align-self: center;
-		padding-left: 45px;
-
-	}
-
-	.icons {
-		display: flex;
-		flex-direction: column;
-		align-items: end;
-		justify-content: center;
-		padding-bottom: 5px;
-		padding-left: 15px;
-	}
+	@media (max-width: 425px) {
+		.whitebox {
+			width:50%;
+			height: 80px;
+			background-color: white;
+			border-radius: 50px;
+			margin: 0 auto;
+			position: relative;
+			overflow: hidden;
+		}
 	
-	.icons .primeiro-quadrante img, .icons .segundo-quadrante img,
-	.icons .quinto-quadrante img {
-		margin-top: 10px;
-		width: 75px;
-		height: 75px;
-		padding: 10px;
-	}
-
-	.icons .primeiro-quadrante .cssicon {
-		margin-top: 20px;
-		width:60px;
-		height:60px;
-	}
-
-	.icons .flaskicon {
-		margin-top: 50px;
-		width:45px;
-		height: 45px
+		.icons {
+			display: flex;
+			gap: 1rem;
+			position: absolute;
+			bottom:-50px;
+			width: 12px;
+			animation: carrossel 15s infinite linear;
+		}
+	
+		.icons img {
+			width: 90px;
+			font-weight: bold;
+		}
+	
+		.icons h2 {
+			font-size: small;
+			padding: 0;
+			margin-top: 2rem;
+			width: 100px;
+		}
+		
+	
+		@keyframes carrossel {
+			from {
+				right: 0px;
+			}
+	
+			to {
+				right: 1200px;
+			}
+		}
 	}
 
 	
