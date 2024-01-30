@@ -80,7 +80,7 @@ nav ul li a:hover {color: rgb(154, 153, 201);}
 	}
 	
 	.whitebox {
-		width:50%;
+		width:30%;
 		height: 90px;
 		background-color: white;
 		border-radius: 50px;
@@ -117,7 +117,7 @@ nav ul li a:hover {color: rgb(154, 153, 201);}
 		}
 
 		to {
-			right: 1950px;
+			right: 1670px;
 		}
 	}
 	/* .icons img {
