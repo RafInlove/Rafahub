@@ -146,11 +146,12 @@ h1 {
 	}
 
 	p {
+		text-align: left;
 		font-size: 26px;
 		letter-spacing: normal;
 		font-family: Poppins;
 		color: #ffff;
-		width: 900px;
+		width: 800px;
 	}
 
 #imagens {
@@ -308,7 +309,14 @@ form label {
 		text-align: left;
 	}
 }
-
+/* tablet */
+@media (max-width: 768px) {
+	p {
+		width: 700px;
+		text-align: left; 
+		padding-left: 1.5rem;
+	}
+}
 /* mobile */
 @media (max-width: 576px) {
     html, body {
@@ -464,6 +472,12 @@ form label {
 			right: 1200px;
 		}
 	}
+
+	p {
+		width: 300px;
+		text-align: left; 
+		padding-left: 0.5rem;
+	}
 }
 /* mobile S */
 @media (max-width: 320px) {
@@ -505,12 +519,9 @@ form label {
 
 	
 		p {
-			font-size: 12px;
-			text-align: center;
-			letter-spacing: normal;
-			font-family: Poppins;
-			color: #ffff;
-			width: 100%;
+			width: 200px;
+			text-align: left; 
+			padding-left: 0.5rem;
 		}
 
 		.trabalhos {
@@ -580,7 +591,7 @@ form label {
 	.tecnologias {
 		margin-top: 0;
 	}
-	
+}
 
 	@media (max-width: 425px) {
 		.whitebox {
@@ -624,17 +635,7 @@ form label {
 				right: 1200px;
 			}
 		}
-	}
 
-	
-		p {
-			font-size: 12px;
-			text-align: center;
-			letter-spacing: normal;
-			font-family: Poppins;
-			color: #ffff;
-			width: 100%;
-		}
 
 		.trabalhos {
 			display: flex;
@@ -668,5 +669,4 @@ form label {
 		}
 
 		h1 {font-size: 18px;}
-
-}
+	}
