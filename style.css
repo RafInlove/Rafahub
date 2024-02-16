@@ -95,7 +95,7 @@ nav ul li a:hover {color: rgb(154, 153, 201);}
 		position: absolute;
 		bottom:10px;
 		width: 12px;
-		animation: carrossel 13s infinite linear;
+		animation: carrossel 17s infinite linear;
 	}
 
 	.icons img {
@@ -117,7 +117,7 @@ nav ul li a:hover {color: rgb(154, 153, 201);}
 		}
 
 		to {
-			right: 1670px;
+			right: 2050px;
 		}
 	}
 	/* .icons img {
